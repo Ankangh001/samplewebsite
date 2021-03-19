@@ -16277,7 +16277,7 @@ nav ul li {
     position: relative;
 }
 
-nav ul li a {
+/* nav ul li a {
     display: block;
     color: rgba(255, 255, 255, .9);
     text-decoration: none;
@@ -16285,17 +16285,18 @@ nav ul li a {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     transition: all .3s ease-in-out;
-}
+} */
 
 nav ul li a:hover, nav ul li a:focus {
-    background: #fff;
+    background: #131111;
+    color: #fff;
 }
 
 nav ul li a:active {
     outline: 0;
     text-decoration: none;
     background-color: #fff;
-    color: #23527c !important;
+    /* color: #23527c !important; */
 }
 
 .nav .open>a {
@@ -16312,14 +16313,14 @@ nav ul li ul li {
 }
 
 nav ul li ul li a {
-    background: transparent;
-    color: #555;
+    background: #142438;
+    color: #fff;
     border-bottom: 1px solid #DDE0E7;
 }
 
 nav ul li ul li a:hover, nav ul li ul li a:focus {
-    background: #eee;
-    color: #111;
+    background: #071f3c;
+    color: #fff;
 }
 
 .dropdown {
